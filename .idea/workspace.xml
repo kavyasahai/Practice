@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86b4e53c-c92c-4176-a133-4c1d3a274f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/palindromeLinkedList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addTwoNumLL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteLinkListNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/deleteLinkListNode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedListCycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedListCycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/removeNthNodeLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/removeNthNodeLinkedList.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,39 +21,40 @@
         <counts>
           <entry key="project.closed" value="9" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="HashTable1" value="1" />
           <entry key="code1" value="1" />
-          <entry key="py" value="59" />
+          <entry key="py" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="60" />
+          <entry key="Python" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="HashTable1" value="6" />
           <entry key="code1" value="373" />
-          <entry key="py" value="15016" />
+          <entry key="py" value="16339" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="15389" />
+          <entry key="Python" value="16712" />
         </counts>
       </usages-collector>
     </session>
@@ -57,36 +62,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reverseLinkedList.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="15" column="13" lean-forward="true" selection-end-line="34" selection-end-column="12" />
-              <folding>
-                <marker date="1549652806326" expanded="true" signature="310:319" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
-                <marker date="1549647204869" expanded="true" signature="11:16" ph="..." />
+                <marker date="1549669559448" expanded="true" signature="11:16" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/palindromeLinkedList.py">
+        <entry file="file://$PROJECT_DIR$/addTwoNumLL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="29" selection-start-line="29" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="334">
+              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
               <folding>
-                <marker date="1549660990775" expanded="true" signature="519:1099" ph="..." />
+                <marker date="1549753208564" expanded="true" signature="722:723" ph="..." />
+                <marker date="1549753208564" expanded="true" signature="722:727" ph="..." />
               </folding>
             </state>
           </provider>
@@ -139,8 +133,12 @@
         <option value="$PROJECT_DIR$/isPalindrome.py" />
         <option value="$PROJECT_DIR$/merge2SortedLists.py" />
         <option value="$PROJECT_DIR$/reverseLinkedList.py" />
-        <option value="$PROJECT_DIR$/linkedList.py" />
         <option value="$PROJECT_DIR$/palindromeLinkedList.py" />
+        <option value="$PROJECT_DIR$/deleteLinkListNode.py" />
+        <option value="$PROJECT_DIR$/removeNthNodeLinkedList.py" />
+        <option value="$PROJECT_DIR$/linkedListCycle.py" />
+        <option value="$PROJECT_DIR$/linkedList.py" />
+        <option value="$PROJECT_DIR$/addTwoNumLL.py" />
       </list>
     </option>
   </component>
@@ -399,16 +397,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/revll.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/msl.py" />
+    <entry file="file://$PROJECT_DIR$/revll.py" />
     <entry file="file://$PROJECT_DIR$/merge2SortedLists.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-125">
@@ -416,32 +406,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <marker date="1549647204869" expanded="true" signature="11:16" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reverseLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="15" column="13" lean-forward="true" selection-end-line="34" selection-end-column="12" />
-          <folding>
-            <marker date="1549652806326" expanded="true" signature="310:319" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/palindromeLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="29" selection-start-line="29" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteLinkListNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/removeNthNodeLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedListCycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
-            <marker date="1549660990775" expanded="true" signature="519:1099" ph="..." />
+            <marker date="1549669559448" expanded="true" signature="11:16" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addTwoNumLL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+          <folding>
+            <marker date="1549753208564" expanded="true" signature="722:723" ph="..." />
+            <marker date="1549753208564" expanded="true" signature="722:727" ph="..." />
           </folding>
         </state>
       </provider>
