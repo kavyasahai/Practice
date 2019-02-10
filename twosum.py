@@ -24,6 +24,18 @@ def twoSum(nums, target):
             collected[val] = idx
 
 
+def twoSum2(nums, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
+    """
+    collected = []
+    for val in nums:
+        diff = target - val
+        if diff in collected:
+            return [diff, val]
+        collected.append(val)
 
 
 
@@ -33,7 +45,8 @@ def twoSum(nums, target):
 
 
 
-print(twoSum([3,3],6))
+
+print(twoSum2([3,-3],0))
 
 
 

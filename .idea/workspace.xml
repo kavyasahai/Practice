@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86b4e53c-c92c-4176-a133-4c1d3a274f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addTwoNumLL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mergeKSortedLists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quicksort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sortLL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deleteLinkListNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/deleteLinkListNode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedListCycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedListCycle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/removeNthNodeLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/removeNthNodeLinkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twosum.py" beforeDir="false" afterPath="$PROJECT_DIR$/twosum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,26 +35,26 @@
         <counts>
           <entry key="HashTable1" value="1" />
           <entry key="code1" value="1" />
-          <entry key="py" value="64" />
+          <entry key="py" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="65" />
+          <entry key="Python" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="HashTable1" value="6" />
           <entry key="code1" value="373" />
-          <entry key="py" value="16339" />
+          <entry key="py" value="18205" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="16712" />
+          <entry key="Python" value="18578" />
         </counts>
       </usages-collector>
     </session>
@@ -64,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="311">
+              <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="16" />
               <folding>
                 <marker date="1549669559448" expanded="true" signature="11:16" ph="..." />
               </folding>
@@ -73,15 +73,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addTwoNumLL.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mergeKSortedLists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="154">
+              <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
               <folding>
-                <marker date="1549753208564" expanded="true" signature="722:723" ph="..." />
-                <marker date="1549753208564" expanded="true" signature="722:727" ph="..." />
+                <marker date="1549757572394" expanded="true" signature="1052:1057" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sortLL.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twosum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/merge2SortedLists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -104,7 +139,6 @@
         <option value="$PROJECT_DIR$/code1" />
         <option value="$PROJECT_DIR$/HashTable1" />
         <option value="$PROJECT_DIR$/HashTable1.py" />
-        <option value="$PROJECT_DIR$/twosum.py" />
         <option value="$PROJECT_DIR$/reverseinteger.py" />
         <option value="$PROJECT_DIR$/venv/palindrome.py" />
         <option value="$PROJECT_DIR$/palindrome.py" />
@@ -139,6 +173,11 @@
         <option value="$PROJECT_DIR$/linkedListCycle.py" />
         <option value="$PROJECT_DIR$/linkedList.py" />
         <option value="$PROJECT_DIR$/addTwoNumLL.py" />
+        <option value="$PROJECT_DIR$/mergeKSortedLists.py" />
+        <option value="$PROJECT_DIR$/quicksort.py" />
+        <option value="$PROJECT_DIR$/sortLL.py" />
+        <option value="$PROJECT_DIR$/twosum.py" />
+        <option value="$PROJECT_DIR$/3sum.py" />
       </list>
     </option>
   </component>
@@ -204,7 +243,7 @@
     <frame x="0" y="23" width="1440" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32980973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32980973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -215,7 +254,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32388663" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32388663" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -332,13 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twosum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designlinkedlist.py" />
     <entry file="file://$PROJECT_DIR$/4sum.py" />
     <entry file="file://$PROJECT_DIR$/removeduplicatesarray.py">
@@ -399,17 +431,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/msl.py" />
     <entry file="file://$PROJECT_DIR$/revll.py" />
-    <entry file="file://$PROJECT_DIR$/merge2SortedLists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reverseLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="15" column="13" lean-forward="true" selection-end-line="34" selection-end-column="12" />
+          <folding>
+            <marker date="1549652806326" expanded="true" signature="310:319" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -424,6 +452,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <marker date="1549664506560" expanded="true" signature="461:528" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -431,6 +462,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <marker date="1549665140719" expanded="true" signature="530:531" ph="..." />
+            <marker date="1549665140719" expanded="true" signature="530:535" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -441,24 +476,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addTwoNumLL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <marker date="1549753376760" expanded="true" signature="722:723" ph="..." />
+            <marker date="1549753376760" expanded="true" signature="722:727" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="311">
+          <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="16" />
           <folding>
             <marker date="1549669559448" expanded="true" signature="11:16" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addTwoNumLL.py">
+    <entry file="file://$PROJECT_DIR$/merge2SortedLists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        <state relative-caret-position="142">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quicksort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
           <folding>
-            <marker date="1549753208564" expanded="true" signature="722:723" ph="..." />
-            <marker date="1549753208564" expanded="true" signature="722:727" ph="..." />
+            <marker date="1549760580636" expanded="true" signature="19:24" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mergeKSortedLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding>
+            <marker date="1549757572394" expanded="true" signature="1052:1057" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sortLL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twosum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
