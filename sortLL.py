@@ -25,30 +25,6 @@ node1.next=node2
 node2.next=node3
 
 
-def mergeThreeLists(l1, l2, l3):
-    """
-    :type l1: ListNode
-    :type l2: ListNode
-    :rtype: ListNode
-    """
-    if l1==None and l3==None:
-        return l2
-    elif l2==None and l3==None:
-        return l1
-    elif l1==None and l2==None:
-        return l3
-
-    if(l1.val<=l2.val and l1.val<=l3.val):
-        head=l1
-        head.next=mergeThreeLists(l1.next,l2,l3)
-    elif(l2.val<=l1.val and l2.val<=l3.val):
-        head=l2
-        head.next=mergeThreeLists(l1,l2.next,l3)
-    elif (l3.val <= l1.val and l3.val <= l2.val):
-        head = l3
-        head.next = mergeThreeLists(l1, l2, l3.next)
-
-    return head
 
 
 def sortList(head):
@@ -56,43 +32,45 @@ def sortList(head):
     :type head: ListNode
     :rtype: ListNode
     """
+    mid=Node.size(head)//2
+    left=head
     curr=head
-    equal=None
-    less=None
-    greater=None
-    lesshead=None
-    greaterhead=None
-    equalhead=None
-    if(Node.size(head)>1):
-        pivot=head.val
-        while(curr is not None):
-            if(curr.val<pivot):
-                if(less is None):
-                    less=curr
-                    lesshead=less
-                else:
-                    less.next=curr
-                    less=less.next
-                curr=curr.next
-            elif(curr.val==pivot):
-                if(equal is None):
-                    equal=curr
-                    equalhead=equal
-                else:
-                    equal.next=curr
-                    equal=equal.next
-                curr = curr.next
-            elif (curr.val > pivot):
-                if (greater is None):
-                    greater = curr
-                    greaterhead=greater
-                else:
-                    greater.next=curr
-                    greater = greater.next
-                curr = curr.next
-        return mergeThreeLists(sortList(lesshead),equal,sortList(greaterhead))
-    else:
-        return head
+    count=0
+    while curr is not None:
+        if(count==mid):
+            right=curr
+        count+=1
+        curr=curr.next
+
+    sortList(left)
+    sortList(right)
+
+    i=0
+    j=0
+    k=0
+
+    curr=head
+    while i<Node.size(left) and j<Node.size(right):
+        if(left.val<right.val):
+            curr=left
+            left=left.next
+        else:
+            curr=right
+            right=right.next
+        curr=curr.next
+
+    while i<Node.size(left):
+        curr=left
+        curr=curr.next
+        left=left.next
+
+    while j<Node.size(right):
+        curr=right
+        curr=curr.next
+        right=right.next
+    #
+    # return curr
+
 
 Node.traverse(sortList(node1))
 
